@@ -6,5 +6,6 @@
       "license_text": ["LICENSE-APACHE", "LICENSE-UNICODE"]
     }
   },
-  "run_cargo": false
+  "run_cargo": false,
+  "generate_rulesmk": true
 }
