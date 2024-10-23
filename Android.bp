@@ -28,3 +28,9 @@ rust_library_host {
     edition: "2018",
     compile_multilib: "first",
 }
+
+dirgroup {
+    name: "trusty_dirgroup_external_rust_crates_unicode-ident",
+    visibility: ["//trusty/vendor/google/aosp/scripts"],
+    dirs: ["."],
+}
